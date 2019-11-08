@@ -12664,23 +12664,31 @@ function Home() {
       lineNumber: 11
     },
     __self: this
-  }, "Home")), __jsx("h1", {
+  }, "Home")), __jsx("img", {
+    src: "/static/panda.jpg",
+    width: "200px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }), __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }, "Ola"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/users",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, "Usu\xE1rios")));
