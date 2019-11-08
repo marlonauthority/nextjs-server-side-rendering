@@ -2,7 +2,9 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 
-export default function Home() {
+import withAnalytics from "../src/hocs/withAnalytics";
+
+function Home() {
   return (
     <div>
       <Head>
@@ -15,3 +17,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default withAnalytics()(Home);
